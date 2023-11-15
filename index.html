@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> School Grading System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section>
+
+
+        <div id="page">
+
+            <h1>SCHOOL GRADING SYSTEM</h1>
+
+
+            <input class="meet" id="student" placeholder="input your name........."> <br> <br> 
+
+            <p>Mathes <input type="number" id="Mathes"></p> 
+    
+            <p>English <input type="number" id="English"></p>
+
+            <p>Physics <input type="number" id="Physics"></p>
+
+            <p>Agric.  S <input type="number" id="Agric.  S"></p>
+
+            <p>Biology <input type="number" id="Biology"></p>
+
+            <main>
+
+                <button onclick="calculateResult()">Total</button>
+                <button onclick="calculateAverage()">Average</button>
+                <button onclick="calculateGrade()">Grade</button>
+
+            </main>
+
+
+
+
+        </div>
+
+         <div id="page">
+
+           <h1>TOTAL </h1>
+           <div class="displayP" id="displayScreenTotal"></div>
+
+           <h2> AVERAGE </h2>
+           <div class="displayP" id="displayScreenAverage"></div>
+
+           <h3> GRADE </h3>
+           <div class="displayP" id="displayScreenGrade"></div>
+
+         </div>
+
+
+    </section>
+
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
